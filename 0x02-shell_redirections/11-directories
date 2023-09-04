@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A|wc -l
+find -maxdedepth 1 -type d |wc-l
